@@ -1,0 +1,29 @@
+body {
+	font-family: helvetica;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 100px;
+}
+
+#graph {
+	position: absolute;
+	left: 50%;
+	transform: translate(-200px, 100px);
+}
+
+#legend {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-160px);
+}
+
+#tooltip {
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
